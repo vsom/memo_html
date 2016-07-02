@@ -1,0 +1,25 @@
+/*
+Par vsom
+*/
+
+p
+{
+	color: green;
+	font-size: 1.1em;
+}
+
+h1, em
+{
+	color: brown;
+	font-size: 1.8em;
+}
+
+.salutations
+{
+	color: red;
+}
+
+#cordialement
+{
+	color: blue;
+}
