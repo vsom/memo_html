@@ -6,12 +6,25 @@ p
 {
 	color: green;
 	font-size: 1.1em;
+	font-family: "Times New Roman", Verdana, Arial, serif;
+	text-align: center;
 }
 
-h1, em
+em
+{
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h1, h2
 {
 	color: brown;
 	font-size: 1.8em;
+	font-family: "Times New Roman", Verdana, Arial, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
 }
 
 .salutations
@@ -22,4 +35,20 @@ h1, em
 #cordialement
 {
 	color: blue;
+}
+
+.signature
+{
+	text-align: right;
+}
+
+.imageflot
+{
+	float: right;
+}
+
+.dessous
+{
+	clear: both;
+	text-align: right;
 }
