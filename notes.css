@@ -1,0 +1,63 @@
+/*
+Par vsom
+*/
+
+h1, h2
+{
+	color: brown;
+	font-size: 1.8em; /* or 16px or small | taille police */
+	font-family: "Times New Roman", Verdana, Arial, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	border: 3px blue dashed; /* Bordures standard */
+}
+
+p
+{
+    border-left: 2px solid black; /* Bordures standard */
+    border-radius: 10px; /* Bordures arrondies */
+    box-shadow: 6px 6px 6px black; /* inset (facult.) | Ombres des boîtes */
+    text-shadow: 2px 2px 4px black; /* Ombre du texte */
+    width: 50%; /* or px | Largeur du bloc */
+    min-height: 400px; /* Hauteur minimal du bloc */
+    padding: 12px; /* Marge intérieure */
+   	margin: 50px; /* Marge extérieure */
+   	margin: auto; /* width: 350px; On peut donc demander à ce que le bloc soit centré avec auto */
+   	overflow: auto; /* coupe bloc si dépassement dans bordure */
+   	word-wrap: break-word; /* coupe txt si dépassement dans bordure */
+}
+
+body
+{
+    background-color: rgb(247,106,243); /* méthode RGB or notation hexadéciamle */
+    background-image: url("lotus_1.jpg");
+    background-attachment: fixed; /* or scroll | fixer le fond */
+    background-repeat: no-repeat; /* or repeat-x or repeat-y | répétition du fond */
+    background-position: 30px 50px; /* or top right | position du fond */
+    background: url("soleil.png") fixed no-repeat top right, url("neige.png") fixed; /* exemple */ 
+    opacity: 0.6;
+    background-color: rgba(255, 0, 0, 0.5); /* Fond rouge à moitié transparent */
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}

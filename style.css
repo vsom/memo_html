@@ -2,7 +2,13 @@
 Par vsom
 */
 
-p
+body
+{
+    background-color: rgb(247,106,243);
+    background-image: url("lotus_1.jpg");
+}
+
+p, ul
 {
 	color: green;
 	font-size: 1.1em;
